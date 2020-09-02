@@ -107,7 +107,7 @@ The structure of folders are shown in the following:
           │          └──1000avg    
           └── 15m
                └──10k_d9
-          │          ├──1avg   
-          │          ├──100avg             
-          │          └──1000avg
+                     ├──1avg   
+                     ├──100avg             
+                     └──1000avg
 ```
