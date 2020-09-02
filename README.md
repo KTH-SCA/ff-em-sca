@@ -84,11 +84,12 @@ The structure of folders are shown in the following:
 │         │    |      └──100avg
 │         │    ├── 100k_d4
 │         │    |      └──100avg
-│         │    ├── 100k_d5
-│         │    |      └──100avg
+│         │    └── 100k_d5
+│         │           └──100avg
 │         │ 
 │         │ 
 └── for_testing
+          │ 
           ├── 3m
           │    └──10k_d6
           │          ├──100avg   
