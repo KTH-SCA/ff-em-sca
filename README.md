@@ -92,18 +92,22 @@ The structure of folders are shown in the following:
           │ 
           ├── 3m
           │    └──10k_d6
-          │          ├──100avg   
-          │          └──1avg
+          │          ├──1avg   
+          │          ├──100avg             
+          │          └──1000avg
           ├── 6m
           │    └──10k_d7
-          │          ├──100avg   
-          │          └──1avg          
+          │          ├──1avg   
+          │          ├──100avg             
+          │          └──1000avg       
           ├── 9m
           │    └──10k_d8
-          │          ├──100avg   
-          │          └──1avg          
+          │          ├──1avg   
+          │          ├──100avg             
+          │          └──1000avg    
           └── 15m
                └──10k_d9
-                     ├──100avg   
-                     └──1avg
+          │          ├──1avg   
+          │          ├──100avg             
+          │          └──1000avg
 ```
