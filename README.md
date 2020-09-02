@@ -9,8 +9,7 @@ All traces used for training and testing are available from [here](https://drive
 
 The structure of trace is shown in the following:
 
-$ tree
-.
+```bash
 ├── dir1
 │   ├── file11.ext
 │   └── file12.ext
@@ -21,3 +20,4 @@ $ tree
 ├── dir3
 ├── file_in_root.ext
 └── README.md
+```
