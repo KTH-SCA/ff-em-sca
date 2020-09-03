@@ -3,7 +3,7 @@
 This page gives information necessary to reproduce the article "Far Field EM Side-Channel Attack on AES Using Deep Learning", Ruize Wang, Huanyu Wang, Elena Dubrova, in 4th ACM Workshop on Attacks and Solutions in Hardware Security (ASHES’20), November 13, 2020, Orlando, USA,  available at eprint.
 
 
-# Trace Access
+## Trace Access
 All traces used for training and testing are available from [here](https://drive.google.com/drive/folders/1RBjtpmGHaCutOn0fNcIsrVSY3RnPrpCv?usp=sharing).
 
 There are 7 files in the folder 'x'avg, where 'x' is 1, 100 or 1000. All these files are in ndarray format.
@@ -121,6 +121,6 @@ The structure of folders are shown in the following:
 ```
 
 
-# Acknowledgments
+## Acknowledgments
 
 We are indebted to the authors of [Screaming Channel](https://github.com/eurecom-s3/screaming_channels) who generously shared the code required to setup experiments and also grateful to Zihao Zhao for his help with configuring hardware for the experiments. The scripts for training and testing are adopted from [ASCAD](https://github.com/ANSSI-FR/ASCAD).
