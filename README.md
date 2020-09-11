@@ -123,4 +123,4 @@ The structure of folders are shown in the following:
 
 ## Acknowledgments
 
-We are indebted to the authors of [Screaming Channel](https://github.com/eurecom-s3/screaming_channels) who generously shared the code required to setup experiments and also grateful to Zihao Zhao for his help with configuring hardware for the experiments. The scripts for training and testing are adopted from [ASCAD](https://github.com/ANSSI-FR/ASCAD).
+We are indebted to the authors of [Screaming Channel](https://github.com/eurecom-s3/screaming_channels) who generously shared the code required to setup experiments and also grateful to the KTH students Martin Brisfors for his valuable advice on training deep learning models and Zihao Zhao for his help with configuring hardware for the experiments. The scripts for training and testing are adopted from [ASCAD](https://github.com/ANSSI-FR/ASCAD).
