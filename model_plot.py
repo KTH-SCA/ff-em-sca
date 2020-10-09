@@ -151,7 +151,7 @@ if __name__ == "__main__":
     # ==========================================================================
 
     # model path
-    model_path = 'E:/5Mhz/for_training/combined_100k x 5_diff_device_same_distance/models_cnn_110points/model_cnn-17.h5'
+    model_path = ''
 
     # Load model
     model = load_sca_model(model_path)
