@@ -86,7 +86,14 @@ def probability_cal(selected_Pts_interest, selected_predictions, NUMBER):
 
     probabilities_array = np.array(probabilities_array)
 
-    probabilities_array = probabilities_array + 10 ** -12
+    for i in range(len(probabilities_array)):
+        if np.count_nonzero(probabilities_array[i]) != 256:
+            none_zero_predictions = [a for a in probabilities_array[i] if a != 0]
+
+            min_v = min(none_zero_predictions)
+
+            #print(min_v**2)
+            probabilities_array[i] = probabilities_array[i] + min_v**2
 
     return probabilities_array
 
